@@ -62,16 +62,16 @@ if(estado=='2'){
    delay(10);
    if (distancia <=15 && distancia >=2){
      digitalWrite(13,HIGH);
-     analogWrite(derB, 0);                  // Parar los motores por 200 mili segundos
+     analogWrite(derB, 0);                  
      analogWrite(izqB, 0); 
      analogWrite(derA, 0);    
      analogWrite(izqA, 0); 
      delay (200);
-     analogWrite(derB, vel);               // Reversa durante 500 mili segundos
+     analogWrite(derB, vel);               
      analogWrite(izqB, vel);
      delay(500);           
         
-     analogWrite(derB, 0);                // Girar durante 1100 milisegundos   
+     analogWrite(derB, 0);               
      analogWrite(izqB, 0); 
      analogWrite(derA, 0);  
      analogWrite(izqA, vel);  
