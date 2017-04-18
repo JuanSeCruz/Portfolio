@@ -1,3 +1,4 @@
+%Este código fue desarrollado gracias a la asesoría del profesor Roberto Carlos Hincapie Ph.D.
 close all; clear all; clc
 ind=1; fi=35*pi/180;
 space_color='k';
